@@ -9,9 +9,10 @@ body{
 }
 main{
     display: flex;
-    justify-content: center;
+    
     flex-direction: column;
     align-items: center;
+   
 }
 
 .container{
@@ -20,6 +21,7 @@ main{
     height: 659px;
     padding:30px;
     margin-bottom: 21px;
+    border-radius: 5px;
 }
 hr{
     border:1px solid #D1D1D1; 
@@ -99,4 +101,49 @@ hr{
 .blog_author a{
     text-decoration: none;
     font-size: 16px;
+}
+
+
+/*----------
+ course css
+----------- */
+.courses{
+    display: flex;
+    justify-content: space-between;
+}
+
+ .banner img{
+    width: 224px;
+    height: 104px;
+}
+.course_content{
+    margin-top: 23px;
+ 
+}
+
+.course_title{
+
+    margin-top: 0;
+   
+}
+.course_instructor,.course_instructor a{
+ padding-top: 0 ;
+ text-decoration: none;
+ color: red;
+}
+.rating{
+    display: flex;
+    flex-direction: row;
+}
+
+.fa-star{
+    color: 
+    #FFC014;
+}
+.clock_icon{
+background-color: rgba(220, 20, 60, 0.562);
+border-radius: 25px;
+padding: 3px;
+margin-left:10px;
+margin-bottom: 15px;
 }
